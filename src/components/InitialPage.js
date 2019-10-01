@@ -139,7 +139,7 @@ class InitialPage extends Component {
                 </SafeAreaView>
             );
         } else {
-            return (
+            return ( 
                 <AppIntroSlider slides={slides} onDone={this.on_Done_all_slides}
                     showSkipButton={true}
                     onSkip={this.on_Skip_slides}
